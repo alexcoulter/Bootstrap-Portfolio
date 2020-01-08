@@ -12,4 +12,4 @@
 * x-small - `<= 640px wide`
 
 ### URL
-* To check out my  responsive portfolio site on Github Pages [Click here](https://alexcoulter.github.io/Responsive-Portfolio/)
+* To check out my  responsive portfolio site on Github Pages [Click here](https://alexcoulter.github.io/Bootstrap-Portfolio/)

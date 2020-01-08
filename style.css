@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  overflow: scroll;
+  margin: 0;
+}
+
+body {
+  background-image: url('assets/images/bg.png');
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+p, a {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  color: #777777;
+  font-size: 17px;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  line-height: 1;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.container-fluid {
+  border-bottom: 2px solid grey;
+}
+
+.logo {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  background-color: #4aaaa5;
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 25px 0px;
+  margin: 12px 0px;
+}
+
+nav a {
+  padding: 0px 10px;
+  border-right: 1px solid grey;
+}
+
+nav a:last-child {
+  border: none;
+  padding-right: 0;
+}
+
+.nav a:hover {
+  color: #4aaaa5;
+  text-decoration: underline;
+}
+
+.main {
+  background-color: #ffffff;
+  border: 3px solid #dddddd;
+  margin-top: 50px;
+  padding: 20px 30px 15px 30px;
+}
+
+.line {
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 35px;
+}
+
+
+.picContainer {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.img-fluid {
+  height: 250px;
+  width: 100%;
+}
+
+.me-pic {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.picText {
+  position: absolute;
+  display: block;
+  bottom: 4%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #4aaaa5;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 15px 0px 15px 0px;
+}
+
+.btn {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 5px 25px 5px 25px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+  margin-top: 50px;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .container-fluid, .container-fluid .container, .header, .container-fluid .row {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .me-pic {
+    width: 100%;
+  }
+}

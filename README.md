@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Bootstrap-Portfolio
 
 ### Description
 * I created this online portfolio to show prospective employers who I am and what I have to offer
